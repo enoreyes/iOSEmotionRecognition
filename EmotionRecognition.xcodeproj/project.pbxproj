@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		F441A13E22B709E20084A8C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F441A13D22B709E20084A8C6 /* AppDelegate.swift */; };
-		F441A14022B709E20084A8C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F441A13F22B709E20084A8C6 /* ViewController.swift */; };
+		F441A14022B709E20084A8C6 /* FrameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F441A13F22B709E20084A8C6 /* FrameViewController.swift */; };
 		F441A14322B709E20084A8C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F441A14122B709E20084A8C6 /* Main.storyboard */; };
 		F441A14522B709E40084A8C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F441A14422B709E40084A8C6 /* Assets.xcassets */; };
 		F441A14822B709E40084A8C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F441A14622B709E40084A8C6 /* LaunchScreen.storyboard */; };
 		F441A15322B709E40084A8C6 /* EmotionRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F441A15222B709E40084A8C6 /* EmotionRecognitionTests.swift */; };
 		F441A15E22B709E40084A8C6 /* EmotionRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F441A15D22B709E40084A8C6 /* EmotionRecognitionUITests.swift */; };
+		F441A16C22B70A360084A8C6 /* FrameExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F441A16B22B70A360084A8C6 /* FrameExtractor.swift */; };
+		F441A17022B74E090084A8C6 /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F441A16F22B74E090084A8C6 /* PhotoCollectionViewController.swift */; };
+		F441A17222B74E950084A8C6 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F441A17122B74E950084A8C6 /* PhotoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		F441A13A22B709E20084A8C6 /* EmotionRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F441A13D22B709E20084A8C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F441A13F22B709E20084A8C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F441A13F22B709E20084A8C6 /* FrameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameViewController.swift; sourceTree = "<group>"; };
 		F441A14222B709E20084A8C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F441A14422B709E40084A8C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F441A14722B709E40084A8C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		F441A15922B709E40084A8C6 /* EmotionRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmotionRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F441A15D22B709E40084A8C6 /* EmotionRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionRecognitionUITests.swift; sourceTree = "<group>"; };
 		F441A15F22B709E40084A8C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F441A16B22B70A360084A8C6 /* FrameExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameExtractor.swift; sourceTree = "<group>"; };
+		F441A16F22B74E090084A8C6 /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		F441A17122B74E950084A8C6 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				F441A13D22B709E20084A8C6 /* AppDelegate.swift */,
-				F441A13F22B709E20084A8C6 /* ViewController.swift */,
+				F441A16F22B74E090084A8C6 /* PhotoCollectionViewController.swift */,
+				F441A17122B74E950084A8C6 /* PhotoCollectionViewCell.swift */,
+				F441A13F22B709E20084A8C6 /* FrameViewController.swift */,
+				F441A16B22B70A360084A8C6 /* FrameExtractor.swift */,
 				F441A14122B709E20084A8C6 /* Main.storyboard */,
 				F441A14422B709E40084A8C6 /* Assets.xcassets */,
 				F441A14622B709E40084A8C6 /* LaunchScreen.storyboard */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F441A14022B709E20084A8C6 /* ViewController.swift in Sources */,
+				F441A16C22B70A360084A8C6 /* FrameExtractor.swift in Sources */,
+				F441A17222B74E950084A8C6 /* PhotoCollectionViewCell.swift in Sources */,
+				F441A14022B709E20084A8C6 /* FrameViewController.swift in Sources */,
 				F441A13E22B709E20084A8C6 /* AppDelegate.swift in Sources */,
+				F441A17022B74E090084A8C6 /* PhotoCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WR4925U3B3;
 				INFOPLIST_FILE = EmotionRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +466,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WR4925U3B3;
 				INFOPLIST_FILE = EmotionRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
